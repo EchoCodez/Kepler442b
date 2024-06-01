@@ -6,36 +6,33 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading">
-        My <span className="text-purple">approach</span>
+      <h1 className="heading text-teal-400">
+        Sustainability Goals
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Eliminate Hunger For All"
+          icon={<AceternityIcon order="Goal 1" />}
+          des="Kepler 442b is one of the only exoplanets that receives a similar amount of light compared to Earth and does not have a poisonous atmosphere or too much stellar radiation (Kaufmen, 2019). By building up hydroponics farms and utilizing the planet's vast resources and surface area, farming can be possible and plentiful enough for all people, keeping them alive (McDonald, 2015).
+"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
             // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-teal-900 rounded-3xl overflow-hidden"
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="Clean Water and Sanitation"
+          icon={<AceternityIcon order="Goal 2" />}
+          des="Kepler 442b is a perfect planet to host reliable liquid water, similar to Earth, due to the relatively temperate climate of  -40 ℃ to 40 ℃ (Norton, 2015). The atmosphere will balance the temperature out even more, leading to ideal conditions for water to form and be used by living organisms. Specifically, keeping this water clean is essential for sustaining long-term life."
         >
           <CanvasRevealEffect
             animationSpeed={3}
             // change bg-black to bg-pink-900
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-blue-900 rounded-3xl overflow-hidden"
             colors={[
               // change the colors of the
               [255, 166, 158],
@@ -48,11 +45,10 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="Affordable and Clean Energy"
+          icon={<AceternityIcon order="Goal 3" />}
+          des="A multipurpose power plant can take advantage of geothermal, hydroelectric, solar, and wind energy to provide a powerful source of energy for innovation and industry. The energy will be used to light houses, assist in research and development, and power the new and different lifestyle that is still very uncertain. More energy can help ease the transition to the new planet and help everyone living on it.
+"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -60,6 +56,44 @@ const Approach = () => {
             colors={[[125, 211, 252]]}
           />
         </Card>
+        
+      </div>
+      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+        {/* add des prop */}
+        <Card
+          title="Industry and Innovation"
+          icon={<AceternityIcon order="Goal 4" />}
+          des="A laboratory dedicated to research and development is essential for industry and innovation on Kepler 442b, serving as a spot for scientific discovery and technological advancement crucial for the colony's survival and prosperity. By serving as a versatile research center, the laboratory will integrate insights from various fields to solve complex problems, ensuring long-term sustainability.
+"
+        >
+          <CanvasRevealEffect
+            animationSpeed={5.1}
+            // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
+            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+          />
+        </Card>
+        <Card
+          title="Peace, Justice, and Institutions"
+          icon={<AceternityIcon order="Goal 5" />}
+          des=" A democratic government will ensure that all of the people of Kepler-442b will hold power instead of a select few. It will also make sure that decisions are made in the best interest of all of the planet’s citizens. We will have a system of government similar to the United States of America, with representatives elected from each part of the planet, and a President serving as the head of the executive branch."
+        >
+          <CanvasRevealEffect
+            animationSpeed={3}
+            // change bg-black to bg-pink-900
+            containerClassName="bg-green-900 rounded-3xl overflow-hidden"
+            colors={[
+              // change the colors of the
+              [255, 166, 158],
+              [221, 255, 247],
+            ]}
+            dotSize={2}
+          />
+          {/* Radial gradient for the cute fade */}
+          {/* remove this one */}
+          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
+        </Card>
+        
+        
       </div>
     </section>
   );

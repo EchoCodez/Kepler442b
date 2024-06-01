@@ -107,33 +107,27 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Honestly, I would rather live on Kepler 442b than Earth! The better government will make me less depressed and more willing to engage in the community!",
+    name: "Ayush Rao",
+    title: "Straight A+ Student in AET IT",
+  },
+  {
+    quote:
+      "Kepler 442b is the best planet with specifically powerful energy sources. Utilizing the larger tectonic activity and increased wind is brilliant and will lead to a better society.",
+    name: "Joshua Weber",
+    title: "Straight A student at Rock Ridge HS and American Red Cross CPR/First Aid certified",
+  },
+  {
+    quote:
+      "I believe in Kepler-442b's planetary success and see massive potential in it for humankind!  I firmly believe it will be a great substitute for Earth once we outgrow our planet. The support for life from its star and the naturally beneficial ecosystem compound with the innovation and sustainable practices to create an amazing planet!",
+    name: "Krish Behera",
+    title: "Straight A+ Student at AOS and Mathcounts State Qualifier",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Shruti Bedekar",
+    title: "Straight A+ Student at Briar Woods HS and Professional Dancer",
   },
 ];
 
