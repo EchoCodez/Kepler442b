@@ -54,7 +54,7 @@ export const projects = [
     des: "Discover with a video about the problems with the giant planet.",
     img: "/k218b.jpg",
     iconLists: [],
-    link: "https://google.com",
+    link: "https://drive.google.com/file/d/1nU09DqZZdfJyQbmpRuJPgS0Y9OjyqYeQ/view?usp=drive_link",
   },
   {
     id: 3,
