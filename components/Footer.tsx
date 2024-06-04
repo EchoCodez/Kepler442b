@@ -20,11 +20,18 @@ const Footer = () => {
           Reach out if you have any questions!
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Click the button below for the email
+          Click the buttons below for the contact email and works cited.
         </p>
         <a href="mailto:920111@lcps.org">
           <MagicButton
             title="Contact Us"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </a>
+        <a href="https://docs.google.com/document/d/13w7C0tB0F0WK-g2MXvkG4Gv9rexU9vr5KS3BYCH8ZCQ/edit?usp=sharing" target="_blank">
+          <MagicButton
+            title="Works Cited"
             icon={<FaLocationArrow />}
             position="right"
           />

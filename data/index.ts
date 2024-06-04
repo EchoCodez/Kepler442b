@@ -1,8 +1,8 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
+  { name: "Campaigns", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Citations", link: "#contact" },
 ];
 
 export const gridItems = [
@@ -42,35 +42,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Gliese 667 Cc",
+    des: "Explore a newspaper of disastrous consequences on the planet.",
+    img: "/gliese.jpg",
     iconLists: [],
-    link: "/ui.earth.com",
+    link: "https://www.canva.com/design/DAGHBZ2ap6c/x5_ysXCZ-vyBjDGcjrUHcQ/edit?utm_content=DAGHBZ2ap6c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "K2-18b",
+    des: "Discover with a video about the problems with the giant planet.",
+    img: "/k218b.jpg",
+    iconLists: [],
+    link: "https://google.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Europa",
+    des: "Find a expressive poster discussing the risks of the small icy landscape.",
+    img: "/europa.jpg",
+    iconLists: [],
+    link: "https://www.canva.com/design/DAGHAhhP72I/jBSjpQATHr8HNxsDmI3RIg/edit?utm_content=DAGHAhhP72I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
 ];
 
