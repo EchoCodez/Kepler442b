@@ -6,7 +6,7 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading text-teal-400">
+      <h1 className="heading text-teal-500">
         Sustainability Goals
       </h1>
       {/* remove bg-white dark:bg-black */}
@@ -192,7 +192,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-full bg-slate-950 px-5 py-2 text-purple backdrop-blur-3xl font-bold text-2xl"
+        justify-center rounded-full bg-slate-950 px-5 py-2 text-teal-500 backdrop-blur-3xl font-bold text-2xl"
         >
           {order}
         </span>

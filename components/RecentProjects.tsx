@@ -9,7 +9,7 @@ const RecentProjects = () => {
   return (
     <section id="projects">
       <div className="py-20">
-      <h1 className="heading text-teal-400">
+      <h1 className="heading text-teal-500">
         Smear Campaigns
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
@@ -66,10 +66,10 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <a className="flex lg:text-xl md:text-xs text-sm text-purple" href={item.link} target="_blank">
+                  <a className="flex lg:text-xl md:text-xs text-sm text-teal-500" href={item.link} target="_blank">
                     Campaign Link
                   </a>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ms-3" color="#00A0A0" />
                 </div>
               </div>
             </PinContainer>

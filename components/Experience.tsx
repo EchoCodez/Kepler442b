@@ -6,7 +6,7 @@ import { Button } from "./ui/MovingBorders";
 const Experience = () => {
   return (
     <div className="py-20 w-full">
-      <h1 className="heading text-teal-400">
+      <h1 className="heading text-teal-500">
         Why Kepler-442b is the Best
       </h1>
 
