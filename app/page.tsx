@@ -20,7 +20,6 @@ const Home = () => {
         <Grid />
         <Experience />
         <Approach />
-        <RecentProjects />
         <Clients/>
         <Footer />
       </div>
